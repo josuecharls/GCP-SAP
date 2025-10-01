@@ -1,26 +1,24 @@
-(
-echo # Visual Studio
-echo .vs/
-echo **/.vscode/
-echo *.suo
-echo *.user
-echo *.userosscache
-echo *.sln.docstates
+# Visual Studio
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-echo # Build outputs
-echo **/bin/
-echo **/obj/
-echo **/TestResults/
+# Build outputs
+**/bin/
+**/obj/
+**/TestResults/
 
-echo # NuGet
-echo packages/
-echo *.nupkg
-echo project.lock.json
-echo paket-files/
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+paket-files/
 
-echo # Logs y temporales
-echo **/*.log
-echo **/*.zip
-echo **/*.7z
-echo **/*.tmp
-)
+# Logs / temporales
+*.log
+*.zip
+*.7z
+*.tmp
