@@ -1,0 +1,26 @@
+(
+echo # Visual Studio
+echo .vs/
+echo **/.vscode/
+echo *.suo
+echo *.user
+echo *.userosscache
+echo *.sln.docstates
+
+echo # Build outputs
+echo **/bin/
+echo **/obj/
+echo **/TestResults/
+
+echo # NuGet
+echo packages/
+echo *.nupkg
+echo project.lock.json
+echo paket-files/
+
+echo # Logs y temporales
+echo **/*.log
+echo **/*.zip
+echo **/*.7z
+echo **/*.tmp
+)
