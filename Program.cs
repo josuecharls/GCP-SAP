@@ -65,7 +65,6 @@ namespace Sodimac.SAP.GCP
             var typed = loader.BuildTypedTable(sqlSchema);
             loader.FillTypedRows(csv, typed, sqlSchema);
 
-            // #4: limpieza por iteración (TRUNCATE) + carga
             loader.Truncate(table);
             loader.BulkInsert(schema, table, typed, sqlSchema);
 

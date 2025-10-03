@@ -1,0 +1,15 @@
+﻿namespace gcp_subsidios.Models
+{
+    internal class GcsDownloadConfig
+    {
+        public required string ServiceAccountKeyPath { get; init; }
+
+        public required string BucketName { get; init; }
+
+        public string? FolderPath { get; init; }
+
+        public required string FileName { get; init; }
+
+        public required string LocalDownloadPath { get; init; }
+    }
+}

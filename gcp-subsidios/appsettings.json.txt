@@ -1,0 +1,16 @@
+﻿{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "GcsDownload": {
+    "ServiceAccountKeyPath": "D:\\reps\\Sodimac\\gcp\\Sodimac-GCP\\SodimacGCP\\gcp-subsidios\\credentials\\itsight-gcp-dev-acb2b135c116.json",
+    "BucketName": "ec-itsight-sodimac-dev",
+    "FolderPath": "//CAPACITAWEB",
+    "FileName": "capacitaweb_20250723.zip",
+    "LocalDownloadPath": "D:\\logs\\gcp-subsidios"
+  }
+}
