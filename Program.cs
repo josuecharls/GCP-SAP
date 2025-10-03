@@ -70,7 +70,7 @@ namespace Sodimac.SAP.GCP
 
             _log.Information("Archivo cargado OK: {File}", file);
         }
-
+        // probando
         private static bool Like(string text, string pattern)
         {
             if (string.IsNullOrWhiteSpace(pattern)) return false;
